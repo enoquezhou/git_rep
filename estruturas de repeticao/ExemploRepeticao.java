@@ -8,13 +8,21 @@ public class ExemploRepeticao{
         //inicialização (incluindo, a declaração)
         //teste de continuidade
         //incremento
-        for( int totalAlunos = 1; totalAlunos <=5 ; totalAlunos++) { // int dentro só do for
+        for( int totalAlunos = 1; totalAlunos <=5 ; totalAlunos++) { // int dentro só do for // totalAlunos +=2 de dois em dois
             nota1 = gerador.nextDouble() *10;
             nota2 = gerador.nextDouble() *10;
             System.out.println(
                 String.format("Média: %.2f",  (nota1 + nota2) /2)
-                
             );
+        }
+        int totalAlunos =1;
+        while(totalAlunos <= 5){
+            nota1 = gerador.nextDouble() *10;
+            nota2 = gerador.nextDouble() *10;
+            System.out.println(
+                String.format("Média: %.2f",  (nota1 + nota2) /2)
+            );
+            totalAlunos++; // + = 2;
         }
         ////repetição controlada por contador
         //int totalAlunos = 1;
