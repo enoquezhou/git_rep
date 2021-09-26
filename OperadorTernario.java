@@ -28,6 +28,8 @@ public class OperadorTernario {
         resultado = String.format("Você %s pode dirigir\n", idade >=18 ?"": "não");
         //JOptionPane.showMessageDialog(null, String.format("Você %s pode dirigir\n", idade >=18 ?"": "não"));
         JOptionPane.showMessageDialog(null, resultado);
+
+        //mais conteudo
     }
     
 }
